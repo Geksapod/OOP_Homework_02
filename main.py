@@ -47,8 +47,8 @@ class Group:
 
     def find_student(self, student_surname):
         """Find a student in a group"""
-        for i in self.students:
-            if student_surname in str(i):
+        for student in self.students:
+            if student_surname in str(student):
                 return True
         return None
 
