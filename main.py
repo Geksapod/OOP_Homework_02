@@ -49,7 +49,7 @@ class Group:
         """Find a student in a group"""
         for student in self.students:
             if student_surname in str(student):
-                return True
+                return str(student)
         return None
 
     def __str__(self):
@@ -83,7 +83,8 @@ if __name__ == "__main__":
     group_1.remove_student(student_5)
     group_1.add_student(student_5)
 
-    print(group_1)
+    print(group_1, "\n")
+    print(group_1.find_student("Stetsenko"))
 
 
 
