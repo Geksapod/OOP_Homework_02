@@ -58,16 +58,16 @@ class Group:
 
 
 if __name__ == "__main__":
-    student_1 = StudentPerson("Petrenko", "Petro", "Petrovych", {"year": 1990, "mounth": 1, "date": 11})
-    student_2 = StudentPerson("Vasylenko", "Vasylyna", "Vasylivna", {"year": 1990, "mounth": 2, "date": 12})
-    student_3 = StudentPerson("Andrienko", "Andriy", "Andrievych", {"year": 1990, "mounth": 3, "date": 13})
-    student_4 = StudentPerson("Kuzmenko", "Maria", "Petrovnf", {"year": 1990, "mounth": 4, "date": 14})
-    student_5 = StudentPerson("Stetsenko", "Stephan", "Andrievych", {"year": 1990, "mounth": 5, "date": 20})
-    student_6 = StudentPerson("Shevchenko", "Ivan", "Oleksievych", {"year": 1991, "mounth": 11, "date": 5})
-    student_7 = StudentPerson("Sergienko", "Olga", "Sergievna", {"year": 1990, "mounth": 9, "date": 21})
-    student_8 = StudentPerson("Petrenko", "Victor", "Andrievych", {"year": 1990, "mounth": 8, "date": 22})
-    student_9 = StudentPerson("Ivanenko", "Hanna", "Ivanivna", {"year": 1990, "mounth": 7, "date": 23})
-    student_10 = StudentPerson("Bondarenko", "Mykola", "Mykolayovych", {"year": 1990, "mounth": 6, "date": 24})
+    student_1 = StudentPerson("Petrenko", "Petro", "Petrovych", {"year": 1990, "month": 1, "date": 11})
+    student_2 = StudentPerson("Vasylenko", "Vasylyna", "Vasylivna", {"year": 1990, "month": 2, "date": 12})
+    student_3 = StudentPerson("Andrienko", "Andriy", "Andrievych", {"year": 1990, "month": 3, "date": 13})
+    student_4 = StudentPerson("Kuzmenko", "Maria", "Petrovnf", {"year": 1990, "month": 4, "date": 14})
+    student_5 = StudentPerson("Stetsenko", "Stephan", "Andrievych", {"year": 1990, "month": 5, "date": 20})
+    student_6 = StudentPerson("Shevchenko", "Ivan", "Oleksievych", {"year": 1991, "month": 11, "date": 5})
+    student_7 = StudentPerson("Sergienko", "Olga", "Sergievna", {"year": 1990, "month": 9, "date": 21})
+    student_8 = StudentPerson("Petrenko", "Victor", "Andrievych", {"year": 1990, "month": 8, "date": 22})
+    student_9 = StudentPerson("Ivanenko", "Hanna", "Ivanivna", {"year": 1990, "month": 7, "date": 23})
+    student_10 = StudentPerson("Bondarenko", "Mykola", "Mykolayovych", {"year": 1990, "month": 6, "date": 24})
 
     group_1 = Group("Python", 2022)
     group_1.add_student(student_1)
