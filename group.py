@@ -35,6 +35,7 @@ class Group:
         self.year = year
         self.max_students = max_students
         self.__students = []
+        self.index = 0
 
     def add_student(self, student: student.StudentPerson):
         """Add a student to a group.
@@ -67,6 +68,12 @@ class Group:
             if student_surname in str(student):
                 return student
         return None
+
+    def __getitem__(self, item):
+        return self.__students[item]
+
+    def __iter__(self):
+        return iter(self.__students)
 
     def __str__(self):
         """Return formatted group's title and list of the students."""

@@ -61,8 +61,14 @@ if __name__ == "__main__":
 
     logger.info("Finished logging")
 
-    print(group_1, "\n")
-    print(group_1.find_student("Stetsenko"))
+    print(group_1)
+    print(group_1.find_student("Stetsenko"), "\n")
+
+    for student in group_1:
+        print(f"student {student}")
+
+    print("\n")
+    print(f"student #6  {group_1[5]}")
 
 
 

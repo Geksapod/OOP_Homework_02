@@ -24,4 +24,4 @@ class DublicateStudentError(Exception):
     def __str__(self):
         """ Return formatted message of DublicateStudentError"""
 
-        return f"{self.student} has been registered in {self.group_title} - {self.group_year}"
+        return f"{self.student} has already been registered in {self.group_title} - {self.group_year}"
